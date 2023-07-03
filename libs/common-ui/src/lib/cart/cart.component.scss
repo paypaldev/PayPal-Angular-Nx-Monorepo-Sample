@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-items: center;
     align-items: center;
+    padding: 8px;
 
     .product {
         width: 100%;
@@ -11,7 +12,7 @@
         justify-items: center;
         justify-content: space-around;
         align-items: center;
-        margin: 8px;
+        margin: 8px 0;
 
         img {
             height: 100px;
@@ -20,6 +21,7 @@
 
         span {
             width: 100px;
+            margin: 4px;
         }
     }
 }
