@@ -1,0 +1,27 @@
+.cart {
+    height: 100vh;
+    border-left: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+    .product {
+        height: 200px;
+        width: 100%;
+        display: flex;
+        justify-items: center;
+        justify-content: space-around;
+        align-items: center;
+        margin: 8px;
+
+        img {
+            height: 200px;
+            width: 200px;
+        }
+
+        span {
+            width: 100px;
+        }
+    }
+}

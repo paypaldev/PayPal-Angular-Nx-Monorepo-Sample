@@ -1,0 +1,9 @@
+<div class="cart">
+    <div class="product" *ngFor="let product of products">
+        <img src={{product.img}} />
+        <span>{{product.name}}</span>
+        <span>${{product.price}}</span>
+        <span>{{product.quantity}}</span>
+    </div>
+    <hr>
+</div>
