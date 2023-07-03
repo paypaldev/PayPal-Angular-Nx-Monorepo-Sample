@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@paypal/common-ui": ["libs/common-ui/src/index.ts"]
+      "@paypal/common-ui": ["libs/common-ui/src/index.ts"],
+      "@paypal/products": ["libs/products/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
