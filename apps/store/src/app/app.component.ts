@@ -5,7 +5,9 @@ import { Product, exampleProducts } from '@paypal/products';
   selector: 'paypal-root',
   template: `
     <div class="container">
-      <paypal-cart [products]=products/>
+      <div class="column--right">
+        <paypal-cart [products]=products/>
+      </div>
     </div>
   `,
   styleUrls: ['./app.component.scss'],

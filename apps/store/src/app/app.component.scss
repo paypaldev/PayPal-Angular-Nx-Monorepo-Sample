@@ -2,4 +2,11 @@
     display: flex;
     width: 100%;
     flex-direction: row-reverse;
+
+    .colum {
+        &--right {
+            display: flex;
+            flex-direction: column;
+        }
+    }
 }
