@@ -7,7 +7,6 @@
     align-items: center;
 
     .product {
-        height: 200px;
         width: 100%;
         display: flex;
         justify-items: center;
@@ -16,8 +15,8 @@
         margin: 8px;
 
         img {
-            height: 200px;
-            width: 200px;
+            height: 100px;
+            width: 100px;
         }
 
         span {
