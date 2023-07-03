@@ -6,8 +6,10 @@
     justify-content: space-around;
 
 
-    .colum {
-        &--right {
+    .column {
+        &--right, &--left {
+            padding: 8px;
+            width: 50%;
             display: flex;
             flex-direction: column;
         }
