@@ -10,6 +10,7 @@ import { Product, exampleProducts } from '@paypal/products';
       </div>
       <div class="column--right">
         <paypal-cart [products]=products/>
+        <paypal-total [products]=products/>
       </div>
     </div>
   `,

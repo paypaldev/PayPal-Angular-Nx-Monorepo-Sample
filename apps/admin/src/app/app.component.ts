@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { exampleProducts } from '@paypal/products';
 
 @Component({
   selector: 'paypal-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'admin';
+  products = exampleProducts;
 }
